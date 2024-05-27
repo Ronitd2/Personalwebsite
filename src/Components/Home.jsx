@@ -17,7 +17,7 @@ export default function Home()
             <div  className="mt-7 sm:mt-20  w-[80%] ">
                 <div className="relative">
                     <h1 className=" text-3xl sm:text-4xl font-semibold heading1 scale-up-tl">Hey there !,I'm-</h1>
-                    <h1 className=" text-5xl mt-5 sm:text-9xl text-white font-bold sm:ml-7 sm:mt-0 letter-by-letter-text">{text}</h1>
+                    <h1 className=" text-6xl mt-5 sm:text-9xl text-white font-bold sm:ml-7 sm:mt-0 letter-by-letter-text">{text}</h1>
 
                 <div className="mt-8 sm:w-[75%] scale-up-right">
                     <p className=" text-2xl sm:text-4xl text-white font-semibold inline">Software Engineer.</p>
