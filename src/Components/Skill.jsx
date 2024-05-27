@@ -31,8 +31,8 @@ export default function Skill()
                 </div>
                 
                 
-                <div className="flex flex-wrap gap-8 w-[100%] mt-4 ">
-                    <div className="sm:h-20 sm:w-[23%] h-18 w-[35%]    hover:slide-fwd-center">
+                <div className="flex flex-wrap gap-8 w-[100%] mt-4 justify-center">
+                    <div className="sm:h-20 sm:w-[23%] h-18  w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={htmllogo}></img>
@@ -40,7 +40,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={csslogo}></img>
@@ -48,7 +48,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={jslogo}></img>
@@ -56,7 +56,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={reactlogo}></img>
@@ -64,7 +64,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={nodelogo}></img>
@@ -72,7 +72,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={expresslogo}></img>
@@ -80,7 +80,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={mongologo}></img>
@@ -88,7 +88,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={clogo}></img>
@@ -96,7 +96,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={javalogo}></img>
@@ -104,7 +104,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={pythonlogo}></img>
@@ -112,7 +112,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={telwindlogo}></img>
@@ -120,7 +120,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={gitlogo}></img>
@@ -128,7 +128,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={githublogo}></img>
@@ -136,7 +136,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={pythonlogo}></img>
@@ -144,7 +144,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={socket}></img>
@@ -152,7 +152,7 @@ export default function Skill()
                     </div>
                     </AnimationOnScroll>
                     </div>
-                    <div className="   sm:h-20 sm:w-[23%] h-18  w-[35%]    hover:slide-fwd-center">
+                    <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
                         <img className="h-10 w-10 sm:h-14 sm:w-14" src={firebase}></img>
