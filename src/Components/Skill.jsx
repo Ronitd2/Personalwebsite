@@ -35,128 +35,128 @@ export default function Skill()
                     <div className="sm:h-20 sm:w-[23%] h-18  w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={htmllogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">HTML</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={htmllogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">HTML</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18  w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={csslogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">CSS</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={csslogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">CSS</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={jslogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Javascript</p>
+                        <img className=" h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={jslogo}></img>
+                        <p className=" text-md md:text-md md:text-lg sm:text-xl font-semibold text-white">Javascript</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={reactlogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">React</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={reactlogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">React</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={nodelogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">NodeJs</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={nodelogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">NodeJs</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={expresslogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">ExpressJs</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={expresslogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">ExpressJs</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={mongologo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">MongoDb</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={mongologo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">MongoDb</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={clogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">C++</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={clogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">C++</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={javalogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Java</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={javalogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Java</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={pythonlogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Python</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={pythonlogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Python</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={telwindlogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Telwind CSS</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={telwindlogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Telwind CSS</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={gitlogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Git</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={gitlogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Git</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={githublogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Github</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={githublogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Github</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={pythonlogo}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Python</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={pythonlogo}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Python</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={socket}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Socket.io</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={socket}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Socket.io</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[40%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20">
-                        <img className="h-10 w-10 sm:h-14 sm:w-14" src={firebase}></img>
-                        <p className="text-lg sm:text-xl font-semibold text-white">Firebase</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={firebase}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Firebase</p>
                     </div>
                     </AnimationOnScroll>
                     </div>
