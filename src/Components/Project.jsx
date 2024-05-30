@@ -6,13 +6,14 @@ import expresslogo from "./images/express.png"
 import mongo from "./images/mongodb.png"
 import indianepic from "../assets/indianepic.png"
 import codelab from "../assets/codelab.png"
+import mllogo from "../assets/ml.jpg"
 import diseaseprediction from "../assets/mlproject.png"
 import firebase from "../assets/firebase.png"
 import socket from "../assets/socket.png"
 import thunder from "./images/thunderbolt.png"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import './animation.css';
-
+import { Link } from "react-router-dom";
 
 export default function Project(){
     return(
@@ -38,7 +39,7 @@ export default function Project(){
                             <div className="mt-2 p-3">
                                 <div className="flex justify-between">
                                 <p className="text-xl sm:text-2xl sm:font-bold text-white ">Indian Epic</p>
-                                <img className="h-6 w-6 sm:h-8 sm:w-8" src={link}/>
+                                <a href="https://scintillating-frangollo-8a56ff.netlify.app/"><img className="h-6 w-6 sm:h-8 sm:w-8" src={link}/></a>
                                 </div>
                                 <div className="hidden  sm:flex flex-wrap sm:gap-3  sm:mt-2">
                                 <div className="p-1  bg-[#3F4E4F] text-blue-400  flex sm:gap-2 gap-1 w-24 rounded-xl justify-center item center">
@@ -74,7 +75,7 @@ export default function Project(){
                             <div className="mt-2 p-3">
                                 <div className="flex justify-between">
                                 <p className="text-xl sm:text-2xl sm:font-bold text-white ">CodeLab</p>
-                                <img className="h-6 w-6 sm:h-8 sm:w-8" src={link}/>
+                                <a href="https://code-lab-eight.vercel.app/"><img className="h-6 w-6 sm:h-8 sm:w-8" src={link}/></a>
                                 </div>
                                 <div className="hidden  sm:flex sm:gap-3 flex-wrap sm:mt-2">
                                 <div className="p-1  bg-[#3F4E4F] text-blue-400  flex sm:gap-2 gap-1 sm:w-18 md:w-24 rounded-xl justify-center item center">
@@ -125,25 +126,22 @@ export default function Project(){
                                 <p className="text-sm sm:text-md">React</p>
                                 </div>
                                 <div className="p-1  bg-[#3F4E4F] text-green-500  flex gap-2 w-24 rounded-xl justify-center item center">
-                                <img className="h-5 w-5" src={node}/>
-                                <p>NodeJs</p>
+                                
+                                <p>Pandas</p>
                                 </div>
                                 <div className="p-1  bg-[#3F4E4F] text-white  flex gap-2 w-28 rounded-xl justify-center item center">
                                 <img className="h-5 w-5" src={expresslogo}/>
-                                <p>ExpressJs</p>
+                                <p>Numpy</p>
                                 </div>
                                 <div className="p-1  bg-[#3F4E4F] text-green-500  flex gap-2 w-28 rounded-xl justify-center item center">
                                 <img className="h-5 w-5" src={mongo}/>
-                                <p>MongoDb</p>
+                                <p>Flask</p>
                                 </div>
-                                <div className="p-1  bg-[#3F4E4F] text-white  flex gap-2 w-28 rounded-xl justify-center item center">
-                                <img className="h-5 w-5" src={socket}/>
-                                <p>Socket.io</p>
+                                <div className="p-2  bg-[#3F4E4F] text-white  flex gap-2 w-auto rounded-xl justify-center item center">
+                                <img className="h-7 w-8" src={mllogo}/>
+                                <p>Scikit-Learn</p>
                                 </div>
-                                <div className="p-1  bg-[#3F4E4F] text-yellow-300  flex gap-2 w-28 rounded-xl justify-center item center">
-                                <img className="h-5 w-5" src={firebase}/>
-                                <p>Firebase</p>
-                                </div>
+                                
                                 </div>
                                 <hr className="bg-gray-500 mt-2"/>
                                 <p className="text-gray-400 text-sm sm:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
