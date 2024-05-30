@@ -3,11 +3,11 @@ import Slider from "react-slick";
 import htmllogo from "./images/html-5.png";
 import csslogo from "./images/css-3.png";
 import jslogo from "./images/js.png";
-import nodelogo from "./images/nodejs.png";
+import nodelogo from "./images/node.png";
 import reactlogo from "./images/atom.png";
 import expresslogo from "./images/express.png";
 import mongologo from "./images/mongodb.png";
-import gitlogo from "./images/git.png";
+import gitlogo from "./images/gith.png";
 import githublogo from "./images/gitcon.png";
 import javalogo from "./images/java.png";
 import clogo from "./images/c.png";
@@ -16,6 +16,8 @@ import telwindlogo from "./images/telwind.png";
 import thunder from "./images/thunderbolt.png"
 import socket from "../assets/socket.png"
 import firebase from "../assets/firebase.png"
+import mysql from "../assets/mysql.png"
+
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Element from "./Element";
 
@@ -139,8 +141,8 @@ export default function Skill()
                     <div className="   sm:h-20 sm:w-[23%] h-18   w-[42%]    hover:slide-fwd-center">
                     <AnimationOnScroll animateIn="animate-scale-up-center">
                       <div className="flex justify-center items-center gap-2 p-2 rounded-2xl bg-[#2C3639] w-full h-18 sm:h-20 hover:border-[#59CE8F] hover:border-b-2 hover:border-t-0 hover:border-l-0 border-r-0 hover:rounded-xl">
-                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={pythonlogo}></img>
-                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">Python</p>
+                        <img className="h-8 w-8 md:h-10 md:w-10 sm:h-14 sm:w-14" src={mysql}></img>
+                        <p className="text-md md:text-lg sm:text-xl font-semibold text-white">MySQL</p>
                     </div>
                     </AnimationOnScroll>
                     </div>

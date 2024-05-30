@@ -24,10 +24,15 @@ export default function Home()
                     <p className="inline  text-2xl sm:text-4xl text2 font-semibold">A self-taught developer with an
                         interest in Computer Science.</p>
                     <div className="flex gap-4 mt-8">
+                    
                         <div className="bg-[#3F4E4F] rounded-lg w-[30%] sm:w-[20%] md:w-[15%] p-2 text-center flex gap-2 items-center justify-center">
+                        {/* <a href="../assets/RonitDas_Resume.pdf" download> */}
                             <img className="w-5 h-6 " src={resume}></img>
                            <p className="text-white font-semibold">Resume</p>
+                           {/* 
+                            */}
                         </div>
+                        
                         <div className="bg-[#3F4E4F] rounded-lg  w-[30%] sm:w-[20%] md:w-[15%] p-2 text-center  flex gap-2 items-center justify-center">
                             <img className="w-6 h-6 " src={github}></img>
                            <p className="text-white font-semibold"> Github</p>
