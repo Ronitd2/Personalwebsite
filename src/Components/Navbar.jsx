@@ -15,17 +15,17 @@ export default function Navbar()
     <div className="flex justify-center w-[100%] ">
         <nav className="p-0 mt-3 sm:mt-7 sm:flex justify-between items-center  w-[80%] sm:border-b-2 sm:border-gray-700">
             <div className="flex justify-between items-center">
-                <h1 className="font-bold text-blue-500 text-4xl">{namelogo}</h1>
+                <h1 className="font-bold text-[#59CE8F] text-2xl sm:text-4xl">{namelogo}</h1>
 
                 {!navbarStatus &&
                 <div className="p-2 sm:invisible">
-                     <img className="h-9 w-8"  onClick={()=>{setNavbarStatus(true)}} src={menu} alt="menu"/>
+                     <img className="h-8 w-7sm:h-9 sm:w-8"  onClick={()=>{setNavbarStatus(true)}} src={menu} alt="menu"/>
                 </div>
                 }
             {navbarStatus &&
                 <div className="fixed h-full top-0 right-0 p-4 w-[60%] backdrop-blur-md z-50 scale-up-hor-right">
                 <div className=" text-center h-screen ">
-                <img  className=" h-12 w-14 " src={cross} onClick={()=>{setNavbarStatus(false)}}></img>
+                <img  className=" h-10 w-12 " src={cross} onClick={()=>{setNavbarStatus(false)}}></img>
                 <ul className="text-green-100 font-semibold">
                     <li className=" mt-10 sm:m-0"><a href="#home" onClick={()=>{setNavbarStatus(false)}}>Home</a></li>
                     <li className=" mt-10 sm:m-0"><a href="#about" onClick={()=>{setNavbarStatus(false)}}>About</a></li>

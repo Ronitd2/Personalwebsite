@@ -5,6 +5,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { useTypewriter} from 'react-simple-typewriter'
 import github from "./images/ggg.png"
 import resume from "../assets/resume.jpg"
+import resumepdf from "../assets/RonitDas_Resume.pdf"
 export default function Home()
 {
     const [text] = useTypewriter({
@@ -17,23 +18,23 @@ export default function Home()
             <div  className="mt-7 sm:mt-20  w-[80%] ">
                 <div className="relative">
                     <h1 className=" text-3xl sm:text-4xl font-semibold heading1 scale-up-tl">Hey there !,I'm-</h1>
-                    <h1 className=" text-6xl mt-5 sm:text-9xl text-white font-bold sm:ml-7 sm:mt-0 letter-by-letter-text">{text}</h1>
+                    <h1 className=" text-6xl mt-5 sm:text-9xl bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient font-bold sm:ml-7 sm:mt-0 letter-by-letter-text">{text}</h1>
 
                 <div className="mt-8 sm:w-[75%] scale-up-right">
                     <p className=" text-2xl sm:text-4xl text-white font-semibold inline">Software Engineer.</p>
                     <p className="inline  text-2xl sm:text-4xl text2 font-semibold">A self-taught developer with an
                         interest in Computer Science.</p>
                     <div className="flex gap-4 mt-8">
-                    
-                        <div className="bg-[#3F4E4F] rounded-lg w-[30%] sm:w-[20%] md:w-[15%] p-2 text-center flex gap-2 items-center justify-center">
-                        {/* <a href="../assets/RonitDas_Resume.pdf" download> */}
+                        <a href={resumepdf}>
+                        <div className="bg-[#3F4E4F] rounded-lg w-[35%] hover:bg-[#389f68] sm:w-[20%] md:w-auto p-2 text-center flex gap-2 items-center justify-center">
+                        
                             <img className="w-5 h-6 " src={resume}></img>
                            <p className="text-white font-semibold">Resume</p>
-                           {/* 
-                            */}
+                           
                         </div>
-                        
-                        <div className="bg-[#3F4E4F] rounded-lg  w-[30%] sm:w-[20%] md:w-[15%] p-2 text-center  flex gap-2 items-center justify-center">
+                        </a>
+
+                        <div className="bg-[#3F4E4F] rounded-lg hover:bg-[#389f68] w-[35%] sm:w-[20%] md:w-[15%] p-2 text-center  flex gap-2 items-center justify-center">
                             <img className="w-6 h-6 " src={github}></img>
                            <p className="text-white font-semibold"> Github</p>
                         </div>
